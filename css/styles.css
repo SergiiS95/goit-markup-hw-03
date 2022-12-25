@@ -1,0 +1,239 @@
+:root {
+  --first-title-color: #2e2f42;
+  --second-title-color: #ffffff;
+  --text-color: #434455;
+  --first-btn-color: #4d5ae5;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--first-title-color);
+}
+
+/*---------HEADER---------*/
+.header {
+  background-color: #ffffff;
+}
+.header-navigation {
+}
+
+.header-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--first-title-color);
+}
+.header-logo span {
+  color: var(--first-btn-color);
+}
+
+.list {
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+}
+.header-item {
+}
+.header-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.header-link:hover,
+.header-link:focus {
+  color: #434455;
+}
+.header-link:active {
+  color: var(--first-btn-color);
+}
+.header-address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-address-link:hover,
+.header-address-link:focus {
+  color: var(--first-btn-color);
+}
+
+/*---------HERO---------*/
+
+.hero {
+  background-color: var(--first-title-color);
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--second-title-color);
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+  background: var(--first-btn-color);
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: var(--first-btn-color);
+}
+.hero-btn:active {
+  background: #404bbf;
+}
+
+/*---------BENEFITS---------*/
+.benefits {
+}
+.benefits-list {
+}
+.benefits-item {
+}
+.benefits-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.benefits-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*---------WORK---------*/
+.work {
+}
+.work-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-title-color);
+}
+.work-list {
+}
+.list {
+}
+.work-item {
+}
+
+/*--------TEAM---------*/
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--first-title-color);
+}
+.team-list {
+}
+.list {
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-name {
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.team-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
+
+/*--------FOOTER---------*/
+.footer {
+  background-color: var(--first-title-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-logo span {
+  color: var(--first-btn-color);
+}
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+/*--------PORTFOLIO---------*/
+
+.portfolio-list-btn {
+}
+.list {
+}
+.portfolio-btn {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: var(--first-btn-color);
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: var(--first-btn-color);
+}
+
+.portfolio-list {
+}
+.portfolio-item {
+}
+.portfolio-title {
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--first-title-color);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-color);
+}
